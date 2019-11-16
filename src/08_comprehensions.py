@@ -10,7 +10,7 @@ for more info regarding list comprehensions.
 
 ## Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-y = [i for i in range(5)]
+y = [i+1 for i in range(5)]
 
 print (y)
 
@@ -24,8 +24,6 @@ print (y)
 y2 = []
 for x in range(10):
     y2.append(x**3)
-
-    name for name in names if name[1:] == s
 
 print(y2)
 
