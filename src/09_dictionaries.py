@@ -41,7 +41,7 @@ waypoints.append({
     "lon": -123,
     "name": "I ADDED SOMETHING"
 })
-print(waypoints)
+print('waypoints line 44', waypoints)
 
 # Modify the dictionary with name "a place" such that its longitude
 # value is -130 and change its name to "not a real place"
